@@ -35,8 +35,9 @@
 /home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/spec/lib/jasmine-1.2.0/jasmine.css \
 /home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/img/logo.png \
 /home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/img/icon.png \
+/home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/js/counter.js \
+/home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/js/angular.min.js \
 /home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/js/notify.js \
-/home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/js/index.js \
 /home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/res/screen \
 /home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/res/icon \
 /home/jordan/Documents/Repos/mom/phonegap/platforms/android/assets/www/res/screen/windows-phone \
