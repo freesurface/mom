@@ -4,12 +4,12 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <name>HelloWorld</name>
+    <name>MOM</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        This is the description that we use for MOM.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="jordan@freesurface.org" href="http://freesurface.org">
+        Free Surface
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
