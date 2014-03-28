@@ -1,1 +1,1 @@
-Find PhoneGap instructions [here](../planning/phonegap.md).
+Find PhoneGap instructions [here](../planning/pages/phonegap.md).
