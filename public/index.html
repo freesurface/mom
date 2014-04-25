@@ -4,7 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
 
     </head>
-    <header class = 'app-head' ng-swipe-right = 'console.log("swiped title right");'>
+    <header class = 'app-head'>
 	<h3 class = "app-title"> MOM - Managing our Minutes </h3>
     </header> 
     <body ng-app="counterapp">
@@ -12,7 +12,7 @@
 	    <hr>
 	    <ul class="no-bullet">
 		<li ng-repeat="job in jobs">
-		    <div ng-swipe-right = 'removejob()'>
+		    <div>
 			<ul ng-controller = 'counterCtrl' class="button-group">
 			    <h4> {{job.name}} </h4>
 			    <h2>{{hours}}:{{minutes}}:{{seconds}}</h2>
@@ -43,7 +43,5 @@
     
 	<script src="bower_packages/angular/angular.min.js"></script>
 	<script src="js/counter.js"></script>
-	<script src="bower_packages/angular-touch/angular-touch.js"></script>
-
     </body>
 </html>
