@@ -15,7 +15,7 @@ var NoJobsView = Backbone.Marionette.ItemView.extend({
 
 var JobsView = Backbone.Marionette.CollectionView.extend({
     jobView: JobView,
-    emptyView: NoUsersView
+    emptyView: NoJobsView
 });
 
 var FormView = Backbone.Marionette.ItemView.extend({
@@ -24,8 +24,8 @@ var FormView = Backbone.Marionette.ItemView.extend({
 	'click button': 'createNewJob'
     },
     ui: {
-	name : '#name',
-	length  : '#length'
+	name: '#name',
+	length: '#length'
     },
     createNewJob: function() {
 	this.collection.add({
@@ -46,7 +46,7 @@ JobTracker.addInitializer(function () {
     JobTracker.jobs = new Jobs();
 
     JobTracker.form.show(new FormView({ collection: JobTracker.jobs }));
-    JobTracker.list.show(new Jobsview({ collection: JobTracker.jobs });
+    JobTracker.list.show(new JobsView({ collection: JobTracker.jobs }));
 });
 
 JobTracker.start();

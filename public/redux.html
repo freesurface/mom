@@ -1,0 +1,31 @@
+<html>
+    <head>
+	<title> Backbone MOM </title>
+
+    </head>
+
+    <body>    
+	<div id="form"></div>
+	<div id="list"></div>
+	<script id="formView" type="text/template">
+	    <h2> New Job </h2>
+	    <p> Name: <input type = "text" id="name" /></p>
+	    <p> Length: <input type = "text" id="length"/> </p>
+	    <p><button> Create </button></p>
+	</script>
+	<script id="jobView" type="text/template">
+	    <p> Name:  <%= name %> </p>
+	    <p> Length:<%= length %> </p>
+	</script>
+	<script id="jobsView" type="text/template"><h2> Jobs </h2></script>
+	<script id="noJobsView" type="text/template"><h2> No Jobs </h2></script>
+   
+
+	<script src="bower_packages/jquery/dist/jquery.min.js"></script>
+	<script src="bower_packages/underscore/underscore.js"></script>
+	<script src="bower_packages/backbone/backbone.js"></script>
+	<script src="bower_packages/backbone.marionette/lib/backbone.marionette.min.js"></script> 
+	<script src="jobs.js"></script> 
+
+    </body>
+</html>
